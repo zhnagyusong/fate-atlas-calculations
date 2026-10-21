@@ -1,0 +1,13 @@
+node_modules/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+
+# Research originals remain outside the public project.
+*.pdf
+*.doc
+*.docx
+research-private/

@@ -1,0 +1,8 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {calculateHuangjiCycles,mapYearToAccumulation,HUANGJI_SCALES} from '../src/huangji.js';
+test('Shao Yong scales use alternating twelve and thirty factors',()=>{assert.equal(HUANGJI_SCALES.yearsPerYuan,30*12*30*12);});
+test('one-based positions cross each complete period exactly once',()=>{for(const [n,expected] of [[1,[1,1,1,1,1]],[30,[1,1,1,1,30]],[31,[1,1,1,2,1]],[360,[1,1,1,12,30]],[361,[1,1,2,1,1]],[10800,[1,1,30,12,30]],[10801,[1,2,1,1,1]],[129600,[1,12,30,12,30]],[129601,[2,1,1,1,1]]]){const r=calculateHuangjiCycles(n);assert.deepEqual([r.yuan,r.hui,r.yun,r.shi,r.yearInShi],expected);assert.equal(r.personalChart,false);}});
+test('decomposition recomposes accumulated years without an implicit epoch',()=>{for(const n of [68941,69043,259200,1000000,Number.MAX_SAFE_INTEGER]){const r=calculateHuangjiCycles(n);assert.equal((r.yuan-1)*129600+(r.hui-1)*10800+(r.yun-1)*360+(r.shi-1)*30+r.yearInShi,n);assert.equal(r.epoch,'user-supplied-accumulated-year');}});
+test('bad accumulated years and overflow fail',()=>{for(const n of [0,-1,1.5,NaN,Infinity,'1',Number.MAX_SAFE_INTEGER+1])assert.throws(()=>calculateHuangjiCycles(n));});
+test('year mapping requires all explicit epoch values and astronomical numbering',()=>{assert.equal(mapYearToAccumulation({year:2026,epochYear:1924,epochAccumulatedYear:68941}),69043);assert.equal(mapYearToAccumulation({year:0,epochYear:-1,epochAccumulatedYear:1}),2);assert.throws(()=>mapYearToAccumulation({year:2026}));assert.throws(()=>mapYearToAccumulation({year:1,epochYear:100,epochAccumulatedYear:1}));});

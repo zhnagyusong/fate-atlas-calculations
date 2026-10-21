@@ -1,0 +1,9 @@
+{
+  "package": "astronomy-engine",
+  "version": "2.1.19",
+  "license": "MIT",
+  "upstream": "https://github.com/cosinekitty/astronomy",
+  "source": "npm astronomy-engine@2.1.19/esm/astronomy.js",
+  "sha256": "068f1445ed0c636c94818fe6d20d7d125120e605e0bab9fc4675c3d531be5ad7",
+  "purpose": "Local browser astronomical calculation; no remote birth-data requests"
+}

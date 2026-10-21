@@ -1,0 +1,159 @@
+{
+  "version": "north-ziwei-sources-v1",
+  "date": "2026-10-21",
+  "publication": "bibliography-paraphrases-and-original-algorithm-only",
+  "originalFilesPublished": false,
+  "pageConvention": "PDF pages are one-based file page indices; print-page numbers are recorded separately only when visually verified.",
+  "sources": [
+    {
+      "id": "N01",
+      "title": "北派斗数两仪象数自化体系高阶班讲义",
+      "fileName": "北派斗数两仪象数自化体系高阶班讲义.pdf",
+      "sha256": "216ae7daefc8b2c20c74c0f6fac4d595e52ca108a689a066c16d957492b99f39",
+      "format": "pdf",
+      "pageCount": 21,
+      "visuallyCheckedPdfPages": [
+        1,
+        8,
+        19
+      ],
+      "reviewScope": "目录及与实现有关的选页核对；不是全书校勘",
+      "originalPublished": false,
+      "contentLicense": "not-granted-by-repository-license"
+    },
+    {
+      "id": "N02",
+      "title": "北派河洛紫微斗数止观录",
+      "fileName": "北派河洛紫微斗数止观录.pdf",
+      "sha256": "aa98779edce30316ae634cb08e74f4d9a4ce33a6745cf5c4e8a670b64266deac",
+      "format": "pdf",
+      "pageCount": 402,
+      "visuallyCheckedPdfPages": [
+        2,
+        5,
+        116
+      ],
+      "reviewScope": "目录及与实现有关的选页核对；不是全书校勘",
+      "originalPublished": false,
+      "contentLicense": "not-granted-by-repository-license"
+    },
+    {
+      "id": "N03",
+      "title": "北派河洛紫微斗数纵横录",
+      "fileName": "北派河洛紫微斗数纵横录.pdf",
+      "sha256": "800969b5952831b722a0ecec0c79673bf529e45eeaef2ce8bda2fe3a1d6c8a9b",
+      "format": "pdf",
+      "pageCount": 386,
+      "visuallyCheckedPdfPages": [
+        2,
+        7,
+        100,
+        109,
+        110,
+        123,
+        149,
+        150,
+        151
+      ],
+      "reviewScope": "目录及与实现有关的选页核对；不是全书校勘",
+      "originalPublished": false,
+      "contentLicense": "not-granted-by-repository-license"
+    },
+    {
+      "id": "N04",
+      "title": "楚天云阔北派紫微斗数初中阶讲义01",
+      "fileName": "楚天云阔北派紫微斗数初中阶讲义01.pdf",
+      "sha256": "1a97dbe84e2ce5cb35eb46650cac82fb8d8617f11a08f90f3f7a81cad36e9c9b",
+      "format": "pdf",
+      "pageCount": 224,
+      "visuallyCheckedPdfPages": [
+        2,
+        42
+      ],
+      "reviewScope": "目录及与实现有关的选页核对；不是全书校勘",
+      "originalPublished": false,
+      "contentLicense": "not-granted-by-repository-license"
+    },
+    {
+      "id": "N05",
+      "title": "楚天云阔北派紫微斗数初中阶讲义02",
+      "fileName": "楚天云阔北派紫微斗数初中阶讲义02.pdf",
+      "sha256": "3bd21e8aca47f942077c4b3a55ab01c5814dbeeb83e451e119a11d013a662793",
+      "format": "pdf",
+      "pageCount": 218,
+      "visuallyCheckedPdfPages": [
+        5
+      ],
+      "reviewScope": "目录及与实现有关的选页核对；不是全书校勘",
+      "originalPublished": false,
+      "contentLicense": "not-granted-by-repository-license"
+    },
+    {
+      "id": "N06",
+      "title": "20180915-香港两仪象数高阶班第1讲1",
+      "fileName": "20180915-香港两仪象数高阶班第1讲1.doc",
+      "sha256": "b53853942c770f553373c498a9e655f33cf09fac40be4caafc730c306e438e8e",
+      "format": "doc",
+      "reviewScope": "已提取正文并检索相关结构段落；图示和个案未全部校勘",
+      "originalPublished": false,
+      "contentLicense": "not-granted-by-repository-license"
+    },
+    {
+      "id": "N07",
+      "title": "20180915-香港两仪象数高阶班第1讲2",
+      "fileName": "20180915-香港两仪象数高阶班第1讲2.doc",
+      "sha256": "7114be7f54612403a3b539dd90d3695cb3bad541ab0b1516bb9ed6e0f98308ac",
+      "format": "doc",
+      "reviewScope": "已提取正文并检索相关结构段落；图示和个案未全部校勘",
+      "originalPublished": false,
+      "contentLicense": "not-granted-by-repository-license"
+    },
+    {
+      "id": "N08",
+      "title": "20180915-香港两仪象数高阶班第1讲3",
+      "fileName": "20180915-香港两仪象数高阶班第1讲3.doc",
+      "sha256": "123a66b6d55044db9c6d5033951d28466e0f5366d06b0f8a216bed79195249b8",
+      "format": "doc",
+      "reviewScope": "已提取正文并检索相关结构段落；图示和个案未全部校勘",
+      "originalPublished": false,
+      "contentLicense": "not-granted-by-repository-license"
+    },
+    {
+      "id": "N09",
+      "title": "20181117-香港两仪象数高阶班第3讲1",
+      "fileName": "20181117-香港两仪象数高阶班第3讲1.doc",
+      "sha256": "4679e6067d0d824c74df5813f5309cff8e9e07831d3f42a209c2c3bc8783cd63",
+      "format": "doc",
+      "reviewScope": "已提取正文并检索相关结构段落；图示和个案未全部校勘",
+      "originalPublished": false,
+      "contentLicense": "not-granted-by-repository-license"
+    },
+    {
+      "id": "N10",
+      "title": "20181117-香港两仪象数高阶班第3讲2",
+      "fileName": "20181117-香港两仪象数高阶班第3讲2.doc",
+      "sha256": "71671dee9fa885d6841caf64eaba1bff1521223a0f08f5f346af475f3365b3c0",
+      "format": "doc",
+      "reviewScope": "已提取正文并检索相关结构段落；图示和个案未全部校勘",
+      "originalPublished": false,
+      "contentLicense": "not-granted-by-repository-license"
+    },
+    {
+      "id": "N11",
+      "title": "20181117-香港两仪象数高阶班第3讲3",
+      "fileName": "20181117-香港两仪象数高阶班第3讲3.doc",
+      "sha256": "7eaebc82d5362dfbf4448c1c837f55ce9f2d3f883514e31701d4b33ac4d1d368",
+      "format": "doc",
+      "reviewScope": "已提取正文并检索相关结构段落；图示和个案未全部校勘",
+      "originalPublished": false,
+      "contentLicense": "not-granted-by-repository-license"
+    },
+    {
+      "id": "UP01",
+      "title": "iztro 四化表及固定安盘实现",
+      "url": "https://docs.iztro.com/learn/mutagen",
+      "implementationVersion": "iztro@2.6.1",
+      "reviewScope": "本地固定版本十干四化逐项对照；不声称所有北派使用同一表"
+    }
+  ]
+}

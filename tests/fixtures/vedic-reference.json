@@ -1,0 +1,389 @@
+{
+  "reference": "pyswisseph 2.10.3.2 / Swiss Ephemeris 2.10.03",
+  "ephemeris": "Moshier; no ephemeris files; SIDM_LAHIRI; apparent geocentric; mean node; whole-sign houses",
+  "purpose": "Numerical reference vectors only; reference implementation is not shipped or used at runtime",
+  "sources": [
+    "https://www.astro.com/swisseph/swephprg.htm",
+    "https://pypi.org/project/pyswisseph/2.10.3.2/"
+  ],
+  "cases": [
+    {
+      "id": "j2000",
+      "utc": "2000-01-01T12:00:00Z",
+      "latitude": 0,
+      "longitude": 0,
+      "ayanamsa": 23.853222486029065,
+      "ascendant": 347.52067711857586,
+      "planets": {
+        "Sun": {
+          "longitude": 256.51569718931427,
+          "speed": 1.0193918758618497
+        },
+        "Moon": {
+          "longitude": 199.47055295238044,
+          "speed": 12.021142876935496
+        },
+        "Mercury": {
+          "longitude": 248.0360525214584,
+          "speed": 1.556213876970665
+        },
+        "Venus": {
+          "longitude": 217.7125758401396,
+          "speed": 1.208999599949155
+        },
+        "Mars": {
+          "longitude": 304.11009083249115,
+          "speed": 0.7756326488476596
+        },
+        "Jupiter": {
+          "longitude": 1.399807823392694,
+          "speed": 0.0407212127767522
+        },
+        "Saturn": {
+          "longitude": 16.542416469972864,
+          "speed": -0.019984792373173656
+        },
+        "Rahu": {
+          "longitude": 101.18742357058703,
+          "speed": -0.052992019727111754
+        }
+      }
+    },
+    {
+      "id": "shanghai-dst",
+      "utc": "1990-08-18T03:00:00Z",
+      "latitude": 31.23,
+      "longitude": 121.47,
+      "ayanamsa": 23.73034458840648,
+      "ascendant": 192.79471329377088,
+      "planets": {
+        "Sun": {
+          "longitude": 121.19926966568121,
+          "speed": 0.9620852070677357
+        },
+        "Moon": {
+          "longitude": 90.32279851088941,
+          "speed": 14.047735138022118
+        },
+        "Mercury": {
+          "longitude": 147.45993212938498,
+          "speed": 0.5997776146112436
+        },
+        "Venus": {
+          "longitude": 101.40714989278257,
+          "speed": 1.223162649224342
+        },
+        "Mars": {
+          "longitude": 29.15183600023513,
+          "speed": 0.5646020077245858
+        },
+        "Jupiter": {
+          "longitude": 96.22973966820396,
+          "speed": 0.21268097629306032
+        },
+        "Saturn": {
+          "longitude": 265.98793345322173,
+          "speed": -0.053222835701259734
+        },
+        "Rahu": {
+          "longitude": 282.59896890219653,
+          "speed": -0.05299203020211393
+        }
+      }
+    },
+    {
+      "id": "delhi",
+      "utc": "2000-08-16T22:50:00Z",
+      "latitude": 28.61,
+      "longitude": 77.21,
+      "ayanamsa": 23.86172532019497,
+      "ascendant": 100.13867824942534,
+      "planets": {
+        "Sun": {
+          "longitude": 120.48547088285339,
+          "speed": 0.9610851281466617
+        },
+        "Moon": {
+          "longitude": 320.0308236579667,
+          "speed": 12.38490193080004
+        },
+        "Mercury": {
+          "longitude": 115.11270515615877,
+          "speed": 2.0338540656112967
+        },
+        "Venus": {
+          "longitude": 138.701103627583,
+          "speed": 1.2286481275025454
+        },
+        "Mars": {
+          "longitude": 106.38130326831815,
+          "speed": 0.6412109574371068
+        },
+        "Jupiter": {
+          "longitude": 44.408108218630574,
+          "speed": 0.12826175161399161
+        },
+        "Saturn": {
+          "longitude": 36.492326227788254,
+          "speed": 0.04621580542574172
+        },
+        "Rahu": {
+          "longitude": 89.0813250097649,
+          "speed": -0.05299201999346522
+        }
+      }
+    },
+    {
+      "id": "london",
+      "utc": "2024-01-01T12:00:00Z",
+      "latitude": 51.5,
+      "longitude": -0.12,
+      "ayanamsa": 24.19087063381626,
+      "ascendant": 0.24389950217737066,
+      "planets": {
+        "Sun": {
+          "longitude": 256.3576140423491,
+          "speed": 1.0189930896457717
+        },
+        "Moon": {
+          "longitude": 137.71586565152538,
+          "speed": 11.813803803507362
+        },
+        "Mercury": {
+          "longitude": 238.0211395745814,
+          "speed": -0.0989180345484007
+        },
+        "Venus": {
+          "longitude": 219.02956765201117,
+          "speed": 1.2164621427556928
+        },
+        "Mars": {
+          "longitude": 243.488296271286,
+          "speed": 0.7417674425049492
+        },
+        "Jupiter": {
+          "longitude": 11.393505397317991,
+          "speed": 0.004772959764127467
+        },
+        "Saturn": {
+          "longitude": 309.0970831169166,
+          "speed": 0.08900262114404527
+        },
+        "Rahu": {
+          "longitude": 356.65955313917124,
+          "speed": -0.05299201450717379
+        }
+      }
+    },
+    {
+      "id": "sydney",
+      "utc": "1980-06-22T05:45:00Z",
+      "latitude": -33.87,
+      "longitude": 151.21,
+      "ayanamsa": 23.581373679870712,
+      "ascendant": 231.95116663434746,
+      "planets": {
+        "Sun": {
+          "longitude": 67.3712502816843,
+          "speed": 0.9538392666308518
+        },
+        "Moon": {
+          "longitude": 176.1024497314387,
+          "speed": 11.912304909207426
+        },
+        "Mercury": {
+          "longitude": 90.06089664717832,
+          "speed": 0.46787013685773937
+        },
+        "Venus": {
+          "longitude": 56.62975611065066,
+          "speed": -0.5356956804801448
+        },
+        "Mars": {
+          "longitude": 146.54220261494717,
+          "speed": 0.5086363212056039
+        },
+        "Jupiter": {
+          "longitude": 131.1292539132378,
+          "speed": 0.14449506405887158
+        },
+        "Saturn": {
+          "longitude": 147.40761362538078,
+          "speed": 0.05064537363207103
+        },
+        "Rahu": {
+          "longitude": 119.14032153406713,
+          "speed": -0.05299202340196933
+        }
+      }
+    },
+    {
+      "id": "buenos-aires",
+      "utc": "2030-12-01T20:30:00Z",
+      "latitude": -34.6,
+      "longitude": -58.38,
+      "ayanamsa": 24.293228141307313,
+      "ascendant": 17.15198309533398,
+      "planets": {
+        "Sun": {
+          "longitude": 225.3974548198191,
+          "speed": 1.0136410528967108
+        },
+        "Moon": {
+          "longitude": 314.1436909853234,
+          "speed": 13.327152571388138
+        },
+        "Mercury": {
+          "longitude": 246.19277980982986,
+          "speed": 0.6051117283985845
+        },
+        "Venus": {
+          "longitude": 235.96538966044162,
+          "speed": 1.2547100541869383
+        },
+        "Mars": {
+          "longitude": 161.74784765042176,
+          "speed": 0.5676310011571696
+        },
+        "Jupiter": {
+          "longitude": 224.4180727788883,
+          "speed": 0.22436573604619667
+        },
+        "Saturn": {
+          "longitude": 40.80779563342544,
+          "speed": -0.08180313139091774
+        },
+        "Rahu": {
+          "longitude": 222.78303203134834,
+          "speed": -0.05299195813961356
+        }
+      }
+    },
+    {
+      "id": "old-date",
+      "utc": "1901-03-17T16:20:00Z",
+      "latitude": 22.3,
+      "longitude": 114.17,
+      "ayanamsa": 22.48151399079761,
+      "ascendant": 232.66175830841803,
+      "planets": {
+        "Sun": {
+          "longitude": 333.913423040526,
+          "speed": 0.9947741038209682
+        },
+        "Moon": {
+          "longitude": 294.57721792814164,
+          "speed": 14.22422937294424
+        },
+        "Mercury": {
+          "longitude": 316.2376241495267,
+          "speed": -0.350983946550441
+        },
+        "Venus": {
+          "longitude": 322.5245172119912,
+          "speed": 1.2432987698312943
+        },
+        "Mars": {
+          "longitude": 122.57101260004542,
+          "speed": -0.2272670064271823
+        },
+        "Jupiter": {
+          "longitude": 257.6688478085496,
+          "speed": 0.12534452542950442
+        },
+        "Saturn": {
+          "longitude": 262.6611046833635,
+          "speed": 0.06149991161738567
+        },
+        "Rahu": {
+          "longitude": 213.34334188422375,
+          "speed": -0.05299203365505294
+        }
+      }
+    },
+    {
+      "id": "future",
+      "utc": "2099-11-11T11:11:00Z",
+      "latitude": 40.7,
+      "longitude": -74.0,
+      "ayanamsa": 25.25238928641819,
+      "ascendant": 197.82888216216023,
+      "planets": {
+        "Sun": {
+          "longitude": 204.11742608901693,
+          "speed": 1.0052496939696163
+        },
+        "Moon": {
+          "longitude": 190.07213451972387,
+          "speed": 14.905390633651844
+        },
+        "Mercury": {
+          "longitude": 185.30460866097727,
+          "speed": 1.1112380284266197
+        },
+        "Venus": {
+          "longitude": 233.06749581154136,
+          "speed": 1.2326575400423843
+        },
+        "Mars": {
+          "longitude": 354.42484488972843,
+          "speed": -0.09615582379462932
+        },
+        "Jupiter": {
+          "longitude": 168.05201859964305,
+          "speed": 0.19411270226719357
+        },
+        "Saturn": {
+          "longitude": 175.86406251308932,
+          "speed": 0.11286699469229192
+        },
+        "Rahu": {
+          "longitude": 328.3603591396557,
+          "speed": -0.05299184169926174
+        }
+      }
+    },
+    {
+      "id": "high-latitude",
+      "utc": "2024-03-20T00:00:00Z",
+      "latitude": 80,
+      "longitude": 20,
+      "ayanamsa": 24.19415005860075,
+      "ascendant": 181.54995531978207,
+      "planets": {
+        "Sun": {
+          "longitude": 335.6772403090111,
+          "speed": 0.9935282405966045
+        },
+        "Moon": {
+          "longitude": 98.05785839408708,
+          "speed": 12.115360115621867
+        },
+        "Mercury": {
+          "longitude": 353.0583131759956,
+          "speed": 1.4644962837669806
+        },
+        "Venus": {
+          "longitude": 315.81735540133207,
+          "speed": 1.2370492266846775
+        },
+        "Mars": {
+          "longitude": 303.47878455346984,
+          "speed": 0.777860528687068
+        },
+        "Jupiter": {
+          "longitude": 20.665597008406927,
+          "speed": 0.200667996500011
+        },
+        "Saturn": {
+          "longitude": 318.0160355346476,
+          "speed": 0.11838860336386299
+        },
+        "Rahu": {
+          "longitude": 352.49968211337017,
+          "speed": -0.05299198117496072
+        }
+      }
+    }
+  ]
+}

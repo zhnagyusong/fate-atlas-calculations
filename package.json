@@ -1,0 +1,39 @@
+{
+  "name": "fate-atlas-calculations",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Auditable Northern Heluo Zi Wei relations, Huangji cycles, experimental Shaozi and local Vedic geometry.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./huangji": "./src/huangji.js",
+    "./shaozi": "./src/shaozi-workflow.js",
+    "./vedic": "./src/vedic.js",
+    "./ziwei": "./src/north-ziwei.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "example": "node examples/quickstart.mjs",
+    "verify": "node scripts/verify-source.mjs"
+  },
+  "license": "MIT",
+  "homepage": "https://fateatlas.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhnagyusong/fate-atlas-calculations.git"
+  },
+  "keywords": [
+    "huangji",
+    "shaozi",
+    "vedic-astrology",
+    "nakshatra",
+    "astronomy",
+    "chinese-calendar",
+    "ziwei",
+    "four-transformations",
+    "heluo"
+  ]
+}

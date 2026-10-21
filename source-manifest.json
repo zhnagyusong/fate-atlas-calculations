@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-21",
+  "website": "https://fateatlas.net",
+  "description": "Allowlisted public calculation modules only. Site server, accounts, payment, environment and history excluded.",
+  "files": [
+    {
+      "file": "src/huangji.js",
+      "sha256": "960c7c65f10ac5a116424c786f38bd7b591d63e3c5eec42eb998ca513396ec72"
+    },
+    {
+      "file": "src/shaozi.js",
+      "sha256": "895127e235142406d98b2a470a32a80f31638fc5a1bd2fb00b86e5b75e803ea4"
+    },
+    {
+      "file": "src/shaozi-workflow.js",
+      "sha256": "b14c500219b9ac22ec0f69988e2d50c91f0ab40b066d2eb4657faf5a0d69f25b"
+    },
+    {
+      "file": "src/bazi.js",
+      "sha256": "ce6c4d7a74eb52c1dc3d3ac1bf119d2495cb92f131f300b89028440e92c92816"
+    },
+    {
+      "file": "src/time.js",
+      "sha256": "6de0c1fcb668703e82283c8086a14d894bb1dd8ac2a412db23fdb857e89f21c6"
+    },
+    {
+      "file": "src/vedic.js",
+      "sha256": "a20d390d0543ba536c785cdfbcc0d421f2a517f50db987c15ce187895d4756f4"
+    },
+    {
+      "file": "src/vendor/lunar-1.8.6.mjs",
+      "sha256": "505dc8eca166977c4e40ec883b22e871cab631811a79ad793ab8e561a2e9ad0f"
+    },
+    {
+      "file": "src/vendor/astronomy-engine-2.1.19.mjs",
+      "sha256": "068f1445ed0c636c94818fe6d20d7d125120e605e0bab9fc4675c3d531be5ad7"
+    },
+    {
+      "file": "src/north-ziwei.js",
+      "sha256": "91f9a17e9394cd30e7c271e9f189bff1886ace1f8b5e7b9e18c43ff744093e6b"
+    },
+    {
+      "file": "src/ziwei-chart.js",
+      "sha256": "afbe34d611a52b3378cc542a2f3dd86c963a18ef00295e2cd031f96691ee1f2f"
+    },
+    {
+      "file": "src/vendor/iztro-2.6.1.cjs",
+      "sha256": "101cf61ae43387e8a9308129942638eac38d4bcfc42de6a8de2a40bd123a3f20",
+      "adapter": "Existing website Node CJS adapter: UMD global self replaced with globalThis."
+    }
+  ]
+}
